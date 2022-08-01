@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+* {
+
+  font-family: 'Finger Paint', cursive;
+  color: #a8a8a8;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+H1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+body {
+  display: flex;
+  margin: 2rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #0c4f85;
+}
+
+main {
+  display:none;
+  margin: 2rem ;
+  justify-content: center;
+  align-content: center;
+  grid-template: repeat(auto) / repeat(auto); 
+  width: 80vmax;
+  height: 80vmax;
+  font-size: 6rem;
+  background-color: #ffffff;
+}
+
+.cell {
+    border: .2rem solid #030304;
+   
+}
+
+/* .cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+  border-top: none;
+}
+
+.cell:nth-child(3n +1){
+  border-left: none;
+}
+
+.cell:nth-child(3n +3) {
+  border-right: none;
+}
+
+.cell:last-child,
+.cell:nth-child(7),
+.cell:nth-child(8) {
+  border-bottom: none;
+} */
+
+#restartBtn {
+  background-color:#a8a8a8 ;
+  color: #ffffff;
+  padding: .8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: .8rem;
+ }
+
+#restartBtn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0c4f85;
+  transform: scale(1.5);
+}
+
+#ThreeBtn {
+  background-color:#a8a8a8 ;
+  color: #ffffff;
+  padding: .8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: .8rem;
+
+}
+
+#ThreeBtn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0c4f85;
+  transform: scale(1.5);
+}
+
+#FiveBtn {
+  background-color:#a8a8a8 ;
+  color: #ffffff;
+  padding: .8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: .8rem;
+}
+
+#FiveBtn:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0c4f85;
+  transform: scale(1.5);
+}
